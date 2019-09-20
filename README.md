@@ -28,10 +28,17 @@ In this project you will create a login page and request a token from the server
 
 Demonstrate your understanding of this Sprint's concepts by answering the following free-form questions. Edit this document to include your answers after each question. Make sure to leave a blank line above and below your answer so it is clear and easy to read by your project manager.
 
-- [ ] Explain what a token is used for.
-- [ ] What steps can you take in your web apps to keep your data secure?
-- [ ] Describe how web servers work.
-- [ ] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+- [x] Explain what a token is used for.
+        *Tokens are used to verify that you have the authorization/credentials to have access to said page.
+
+- [x] What steps can you take in your web apps to keep your data secure?
+        *Steps tp keep data secure include using HTTPS, changing passwords often, make sure all software is up to date.
+
+- [x] Describe how web servers work.
+        *Web servers work by getting an IP address from the domain name. After that, the browser will request the full URL. The web server then responds to that request and then displays the page.
+
+- [x] Which HTTP methods can be mapped to the CRUD acronym that we use when interfacing with APIs/Servers.
+        *HTTP methods that map to CRUD are PUT, POST, GET and DELETE.
 
 
 ## Project Set Up
@@ -72,8 +79,8 @@ Build a login form to authenticate your users.
 
 ### Stage 2 - Consuming the API
 
-- [ ] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
-- [ ] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
+- [x] When `BubblePages` renders, make a GET request to fetch the color data for your bubbles.
+- [x] In `ColorList.js`, complete the `saveEdit` and `deleteColor` functions to make AJAX requests to the API to edit/delete data
 - [ ] Watch and enjoy as your app responds to updates in the data. Check out `Bubbles.js` to see how this is built.
 
 ### API Documentation

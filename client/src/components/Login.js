@@ -17,7 +17,7 @@ function Login (props) {
 
   const login = e => {
     e.preventDefault();
-    console.log(credentials)
+    // console.log(credentials)
     axiosWithAuth()
     .post('/login', credentials)
     .then(res => { 
