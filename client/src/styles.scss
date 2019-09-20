@@ -60,6 +60,12 @@ body,
   margin-right: 36px;
 }
 
+.header {
+  margin: 29px;
+  display: flex;
+  align-content: center;
+}
+
 form {
   margin-top: 60px;
   display: flex;
@@ -81,6 +87,10 @@ form {
 
   input {
     width: 100px;
+  }
+
+  button {
+    width: 107px;
   }
 }
 
